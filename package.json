@@ -1,0 +1,21 @@
+{
+  "name": "transactions_api",
+  "version": "1.0.0",
+  "description": "This_is_an_API_designed_for_a_bank_transactions_coding_challenge__It_has_not_been_properly_tested_and_was_designed_more_as_a_proof_of_concept",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
